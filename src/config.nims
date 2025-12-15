@@ -79,6 +79,8 @@ elif defined(emscripten):
   --threads:off
   --panics:on
   --define:noSignalHandler
+
+   #Performance Optimisation Flag
   --passL:"-O3"
   # Using Html Shell
   --passL:"--shell-file minshell.html"
